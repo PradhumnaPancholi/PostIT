@@ -1,0 +1,1 @@
+required data => title, image, body, created at.
