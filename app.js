@@ -25,14 +25,19 @@ app.get('/', function (req, res){
     res.redirect('/blogs');
 });
 
+//Index Route
 app.get('/blogs', function(req, res){
     Blog.find({}, function(err, blogs){
         if(err){
             console.log('Something went wrong : ((((');
         } else{
             res.render('index', {blogs : blogs});
-            console.log('Index works');
         }
     });
+});
+
+//New Route//
+app.get('/blogs/new', function(req, res){
+    res.render('new');
 });
 app.listen(process.env.PORT, process.env.IP);
