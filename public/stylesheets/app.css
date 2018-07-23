@@ -1,7 +1,11 @@
 i.icon{
-    font-size: 2em;
+    font-size: 16px;
 }
 
 .container.main{
-    margin-top: 7.0em;
+    margin-top: 20px;
+}
+
+.container{
+    height: 70px;
 }
