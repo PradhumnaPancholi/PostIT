@@ -4,7 +4,7 @@ var express    = require('express'),
     mongoose   = require('mongoose');
 
 //app config//
-mongoose.connect('mongodb://pradhumna:data6629#@ds145911.mlab.com:45911/postit777');
+mongoose.connect('mongodb://pradhumna:data6629@ds145911.mlab.com:45911/postit777');
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended : true}));  
