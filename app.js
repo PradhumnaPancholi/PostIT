@@ -4,7 +4,7 @@ var express    = require('express'),
     mongoose   = require('mongoose');
 
 //app config//
-mongoose.connect('mongodb://localhost/restful_blog_app');
+mongoose.connect('mongodb://pradhumna:data6629#@ds145911.mlab.com:45911/postit777');
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended : true}));  
@@ -31,6 +31,7 @@ app.get('/blogs', function(req, res){
             console.log('Something went wrong : ((((');
         } else{
             res.render('index', {blogs : blogs});
+            console.log('Index works');
         }
     });
 });
