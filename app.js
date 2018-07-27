@@ -2,7 +2,7 @@ var express    = require('express'),
     app        = express(),
     bodyParser = require('body-parser'),
     mongoose   = require('mongoose'),
-    methodOverride = require('');
+    methodOverride = require('method-override');
 
 //app config//
 mongoose.connect('mongodb://pradhumna:data6629@ds145911.mlab.com:45911/postit777');
