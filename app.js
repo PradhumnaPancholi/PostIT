@@ -69,7 +69,7 @@ app.get('/blogs/:id', function(req, res){
 
 //Edit Route//
 app.get('/blogs/:id/edit', function(req, res){
-    Blog.findById(req.param.id, function(err, foundBlog){
+    Blog.findById(req.params.id, function(err, foundBlog){
         if(err){
             res.redirect('/blogs');
         }else{
