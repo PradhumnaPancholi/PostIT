@@ -90,7 +90,7 @@ app.put('/blogs/:id', function(req, res){
 });
 
 //Delete route//
-app.delete('/blogs/:id', function(){
+app.delete('/blogs/:id', function(res, req){
     //destroy blog//
     Blog.findByIdAndRemove(req.params.id, function(err){
         if(err){
