@@ -1,10 +1,13 @@
 i.icon{
     font-size: 16px;
 }
-
+.menu{
+    position: fixed;
+}
 .segment{
     margin-top: 40px;
     padding-top: 40px;
+    height: 100%;
 }
 #delete{
     display: inline;
