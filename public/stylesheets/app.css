@@ -2,8 +2,9 @@ i.icon{
     font-size: 16px;
 }
 
-.segment{
-    margin-top:20% ;
+.segment.top{
+    margin-top: 20% ;
+    padding-top: 20%;
 }
 #delete{
     display: inline;
