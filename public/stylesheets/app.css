@@ -3,10 +3,11 @@ i.icon{
 }
 .menu{
     position: fixed;
+    margin-bottom: 30%;
 }
 .segment{
-    margin-top: 40px;
-    padding-top: 40px;
+    margin-top: 40%;
+    padding-top: 40%;
     height: 100%;
 }
 #delete{
