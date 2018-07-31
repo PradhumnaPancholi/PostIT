@@ -2,8 +2,8 @@ i.icon{
     font-size: 16px;
 }
 
-.segment.top{
-    margin-top: 40% ;
+.segment{
+    margin-top: 40px ;
 }
 #delete{
     display: inline;
