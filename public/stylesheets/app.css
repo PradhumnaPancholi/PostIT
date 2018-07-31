@@ -1,9 +1,11 @@
 i.icon{
     font-size: 16px;
 }
-
-.segment{
+.container{
     margin: auto;
+}
+.segment{
+    margin:20% auto;
 }
 #delete{
     display: inline;
