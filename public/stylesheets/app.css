@@ -3,7 +3,8 @@ i.icon{
 }
 
 .segment{
-    margin-top: 40px ;
+    margin-top: 40px;
+    padding-top: 40px;
 }
 #delete{
     display: inline;
