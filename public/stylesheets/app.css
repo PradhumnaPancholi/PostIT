@@ -5,12 +5,10 @@ i.icon{
     position: fixed;
     margin-bottom: 30%;
 }
-.segment{
+.ui segment{
     margin-top: 10%;
     height: 100%;
 }
-#delete{
-    display: inline;
-}
+
 
 
