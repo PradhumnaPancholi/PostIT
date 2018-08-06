@@ -5,9 +5,8 @@ i.icon{
     position: fixed;
     margin-bottom: 30%;
 }
-.main{
-    margin-top: 40%;
-    padding-top: 40%;
+.segment{
+    margin-top: 10%;
     height: 100%;
 }
 #delete{
